@@ -1,14 +1,14 @@
 # code-refactor-html-css
-Challenge 1
+CSS Git Challenge (1)
 
 ## Purpose
-A website that provides information on Search Engine Optimization, Online Reputation Management, and Social Media Marketing.
+A marketing agency website that provides information on Search Engine Optimization, Online Reputation Management, and Social Media Marketing.
 
 ## Built With
     * HTML
     * CSS
 
 ## Contribution
-Made with ❤️️ by Horiseon
+Made with ❤️️ by Eli Milovets
 
-### @2019 Horiseon
+### ©2019 Horiseon
