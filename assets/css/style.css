@@ -1,3 +1,4 @@
+/* Default Style Start */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,17 @@ body {
     background-color: #d9dcd6;
  }
 
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Default Style End */
+
+ /* Header Style Start */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,16 +52,9 @@ nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* Header Styles End */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* Main Styles Start */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +64,34 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+main article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #fff;
+}
+
+main article img {
+    max-height: 200px;
+}
+
+
+main article img h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Main Styles End */
+
+/* Aside Styles Start */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,11 +101,8 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-.benefit-article {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .benefit-article h3 {
@@ -101,61 +115,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* Aside Styles End */
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer Styles Start */
 .footer {
     padding: 30px;
     clear: both;
@@ -166,3 +128,16 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* Footer Styles End*/
+
+/* Util */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* Util */
