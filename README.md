@@ -2,7 +2,7 @@
 Challenge 1
 
 ## Purpose
-A website that provide info related to Search Engine Optimization, Online Reputation Management, and Social Media Marketing.
+A website that provides information on Search Engine Optimization, Online Reputation Management, and Social Media Marketing.
 
 ## Built With
     * HTML
