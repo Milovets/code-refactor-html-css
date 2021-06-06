@@ -1,3 +1,4 @@
+/* Default Style Start */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +8,17 @@
 body {
     background-color: #d9dcd6;
  }
+
+ p {
+    font-size: 16px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Default Style End */
+
  /* Header Style Start */
 header {
     padding: 20px;
@@ -39,11 +51,6 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
 }
 /* Header Styles End */
 
@@ -91,9 +98,6 @@ main article img h2 {
     font-size: 36px;
 }
 
-p {
-    font-size: 16px;
-}
 /* Main Styles End */
 
 /* Aside Styles Start */
@@ -133,4 +137,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
-/* Footer Styles */
+/* Footer Styles End*/
